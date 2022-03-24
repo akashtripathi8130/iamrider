@@ -1,0 +1,67 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url(../images/karl-lee-i4I1_XO8ymw-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+.navbar-default{
+    background-color: black;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: orangered;
+}
+        
+
+.navbar-default .navbar-brand{
+   color: orangered;
+/*    background-color: black;*/
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+}
+
+
+i{
+    color: azure;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: aliceblue;
+}
+.white{
+    color: white;;
+}
+
+.orange{
+    background-color: orangered;
+}
+
+.center{
+    text-align: center;
+    margin-left: 35%;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+p{
+    color: white;
+}
+@media (max-width:768px)
+{
+    h1{
+        background-color:palegreen;
+        
+    }
+    h2{
+        background-color: aquamarine;
+    }
+}
